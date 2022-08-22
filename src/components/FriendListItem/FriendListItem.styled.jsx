@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StatusColor = styled.span`
-  background-color: ${p => p.isOnline ? p.theme.colors.green : p.theme.colors.red};
+  background-color: ${p =>
+    p.isOnline ? p.theme.colors.green : p.theme.colors.red};
   border-radius: 50%;
   width: 15px;
   height: 15px;

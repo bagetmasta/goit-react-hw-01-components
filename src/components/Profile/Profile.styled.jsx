@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Title = styled.h1`
   font-size: ${p => p.theme.fontSizes.xl};
@@ -22,7 +22,7 @@ export const ProfileContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`
+`;
 
 export const Quantity = styled.span`
   margin-left: 10px;
@@ -38,4 +38,4 @@ export const DescriptionItem = styled.p`
 
 export const Description = styled.div`
   display: block;
-`
+`;

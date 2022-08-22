@@ -1,13 +1,19 @@
-import PropTypes from 'prop-types'; 
-import { Avatar, ListItems, StatsList, ProfileContainer, Quantity, Item, DescriptionItem, Description } from '../Profile';
+import PropTypes from 'prop-types';
+import {
+  Avatar,
+  ListItems,
+  StatsList,
+  ProfileContainer,
+  Quantity,
+  Item,
+  DescriptionItem,
+  Description,
+} from '../Profile';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => (
   <ProfileContainer>
     <Description>
-      <Avatar
-        src={avatar}
-        alt="User avatar"
-      />
+      <Avatar src={avatar} alt="User avatar" />
       <DescriptionItem>{username}</DescriptionItem>
       <DescriptionItem>@{tag}</DescriptionItem>
       <DescriptionItem>{location}</DescriptionItem>
@@ -38,6 +44,6 @@ Profile.propTypes = {
   stats: PropTypes.shape({
     followers: PropTypes.number.isRequired,
     views: PropTypes.number.isRequired,
-    likes: PropTypes.number.isRequired
-  })
-}
+    likes: PropTypes.number.isRequired,
+  }),
+};
