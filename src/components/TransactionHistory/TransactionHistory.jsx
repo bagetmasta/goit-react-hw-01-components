@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { TransactionHistoryContainer } from './TransactionHistory.styled';
+import { TransactionHistoryContainer } from '../TransactionHistory';
 
 export const TransactionHistory = ({ items }) => (
   <TransactionHistoryContainer>
